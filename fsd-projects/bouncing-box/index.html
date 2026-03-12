@@ -8,7 +8,7 @@
       .box {
         width: 70px;
         height: 70px;
-        background-color: teal;
+        background-color: rgb(129, 126, 126);
         font-size: 300%;
         text-align: center;
         user-select: none;
@@ -69,7 +69,8 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
-
+        var examplevariable = 5;
+        
 
 
 
@@ -80,7 +81,9 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
-
+          moveBoxTo(100); // Moves box to x-position 200
+          variableName = variableName + 10; // Adds 10 to variableName
+          variablename += 10; // Increases variablename by 10
         
 
           
@@ -93,8 +96,8 @@
          * - increase the speed
          * - move the box to the left side of the screen.
          */
-        function handleBoxClick() {
-
+        function handleBoxClick () {
+        
 
 
 
@@ -102,7 +105,7 @@
 
 
         
-      })();
+      {}();
     </script>
   </body>
 </html>

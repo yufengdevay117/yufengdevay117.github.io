@@ -27,20 +27,19 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     toggleGrid();
+     //toggleGrid();
 
        
 
     // TODO 2 - Create Platforms
     // createBadPlatform(500, 400, 100, 20, "blue")
    createPlatform(700,300,200,20);
-   createPlatform(600,300,100,10,"purple");
-   createPlatform(0,0,0,0); 
-   createPlatform(0,0,0,0,"orange");
-   createPlatform(0,0,0,0);
-   createPlatform(0,0,0,0,"blue");
-   createPlatform(0,0,0,0);
-   createPlatform(0)
+   createPlatform(600,300,100,10,"red");
+   createPlatform(100,590,250,90); 
+   createPlatform(500,9,20,290,"red");
+   createPlatform(1350,250,60,900);
+   createPlatform(190,500,300,107,"blue");
+   
 
 
    
@@ -61,11 +60,11 @@ $(function () {
 
     // TODO 4 - Create Cannons
    createCannon("Top",500,300);
-  createCannon("Bottom",700,600)
+  createCannon("Bottom",700,500)
 
-   createCannon("top",200,100);
-   createCannon("right",300,2000);
-   createCannon("left",300,2000);
+   createCannon("top",500,600);
+   createCannon("right",300,1000);
+   createCannon("left",200,2000);
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
